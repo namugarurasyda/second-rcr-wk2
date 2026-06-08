@@ -1,4 +1,4 @@
-import { MenuItem } from "./MenuItem";
+import { MenuItem } from "./menuitem";
 
 export const Menu = () => {
   const handleOrder = (itemName, itemPrice) => {
@@ -14,3 +14,5 @@ export const Menu = () => {
     </div>
   );
 };
+
+export default Menu;

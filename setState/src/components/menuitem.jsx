@@ -8,3 +8,5 @@ export const MenuItem = ({ name, price, onOrder }) => {
     </div>
   );
 };
+
+export default MenuItem;

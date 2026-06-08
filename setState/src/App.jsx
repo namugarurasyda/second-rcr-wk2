@@ -12,6 +12,8 @@ import CustomButton  from './components/customButton'
 import ActionButton from './components/ActionButton'
 import { Contact } from './components/Contact'
 import { Newsletter } from './components/Newsletter'
+import { MenuItem } from './components/menuitem'
+import { Menu } from './components/menu'  
 
 class App extends Component {
   // const [count, setCount] = useState(0)
@@ -19,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Menu />
       <CustomButton text="Like" /> 
       <CustomButton text="Bookmark" /> 
       <Greet class ="Syda"/> <br />
