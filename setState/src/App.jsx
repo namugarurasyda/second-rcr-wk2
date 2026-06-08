@@ -9,6 +9,7 @@ import Welcome from './components/Welcome'
 import Message from './components/mesaage'
 import Counter from './components/counter'
 import CustomButton  from './components/customButton'
+import ActionButton from './components/ActionButton'
 
 class App extends Component {
   // const [count, setCount] = useState(0)
@@ -23,6 +24,7 @@ class App extends Component {
       <Hello name="AnsuFati" />
       <Message />
       <Counter /> 
+      <ActionButton text="Submit" />
       
       <div> <h1>the day </h1></div>
       </div>
