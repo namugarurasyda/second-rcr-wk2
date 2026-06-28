@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export const LoginCard = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
+  
   const handleLogin = () => {
     setIsLoggedIn(!isLoggedIn);
   };
