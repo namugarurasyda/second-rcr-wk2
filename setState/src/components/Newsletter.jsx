@@ -1,8 +1,12 @@
+import React , {useState} from "react";
 import  ActionButton from "./ActionButton";
 
 export const Newsletter = () => {
+    const [email, setEmail] = useState("");
+
     const handleSubscribe = () => {
-        alert("Thank you for subscribing to our newsletter!");
+        alert(`Thank you for subscribing to our newsletter with email: ${email}`);
+    
     }
   return (
     <div>
