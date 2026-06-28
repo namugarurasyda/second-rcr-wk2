@@ -1,8 +1,8 @@
 import { MenuItem } from "./menuitem";
 
 export const Menu = () => {
-  const handleOrder = (itemName, itemPrice) => {
-    alert(`You ordered: ${itemName} for ${itemPrice}`);
+  const handleOrder = (itemName, itemPrice, itemQuantity) => {
+    alert(`You ordered: ${itemName} for ${itemPrice} x ${itemQuantity} = ${itemPrice * itemQuantity}`);
   };
 
   return (
