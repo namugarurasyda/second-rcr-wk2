@@ -10,7 +10,7 @@ export const LoginCard = () => {
 
   useEffect(() => {
     console.log(`User is ${isLoggedIn ? "logged in" : "logged out"}`);
-  }, [isLoggedIn]);
+  }, [isLoggedout]);
 
   return (
     <button onClick={handleLogin}>{isLoggedIn ? "Logout" : "Login"}</button>
