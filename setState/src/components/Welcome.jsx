@@ -16,7 +16,11 @@ const Welcome = () => {
             updateMessage();
         }, 3000);   
     }, []);
-    return <h1>{message}</h1>;
+    return
+    <div>  
+         <h1>{message}</h1>;  
+    </div>
+   
 }
 
 export default Welcome
