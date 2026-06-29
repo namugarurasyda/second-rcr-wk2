@@ -9,7 +9,13 @@ const Welcome = () => {
 
      const updateMessage = () => {
         setMessage("Hello RCR week Welcome component updated");
+        
     }
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            updateMessage();
+        }, 3000);   
+    }, []);
     return <h1>{message}</h1>;
 }
 
